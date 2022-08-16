@@ -294,7 +294,7 @@ class Tool:
 				elif option == 'dev' or option == 'DEV':
 					print(self.dev)
 				elif option == 'exit' or option == 'EXIT':
-					subprocess.run(['pkill -f ViDucHung.py'], shell=True)
+					subprocess.run(['pkill -f PhamTheSuong.py'], shell=True)
 				elif option == 'stop' or option == 'STOP':
 					subprocess.run(['pkill screen'], shell=True)
 					print(f"{Color.LG} Pham The Suong: Done!")
@@ -369,7 +369,7 @@ class Tool:
 			elif option == 'dev' or option == 'DEV':
 				print(self.dev)
 			elif option == 'exit' or option == 'EXIT':
-				subprocess.run(['pkill -f ViDucHung.py'], shell=True)
+				subprocess.run(['pkill -f PhamTheSuong.py'], shell=True)
 			elif option == 'stop' or option == 'STOP':
 				subprocess.run(['pkill screen'], shell=True)
 				print(f"{Color.LG} Pham The Suong: Done!")
@@ -618,7 +618,7 @@ class Tool:
 				subprocess.run(['pkill -f Pham The Suong.py'], shell=True)
 			elif option == 'stop' or option == 'STOP':
 				subprocess.run(['pkill screen'], shell=True)
-				print(f"{Color.LG} Vi Đức Hùng: Done!")
+				print(f"{Color.LG} Pham The Suong: Done!")
 			elif option == '00' or option == '0':
 				os.system('clear');self.bbos()
 			elif option == "":
