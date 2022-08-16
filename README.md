@@ -12,7 +12,7 @@
 * Vào CH Play Hoặc Appstore Tải Google Cloud Để Chạy Tool Nhé!
 
 * ```git clone https://github.com/hidos123/Ddos-V3```
-* ```Ddos-V3; sh vdh.sh```
+* ```Ddos; sh vdh.sh```
 
 
 
