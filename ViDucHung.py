@@ -59,7 +59,7 @@ class Home:
 		print("\n")
 		while True:
 			try:
-				sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Vi Đức Hùng"+Color.LB+" --> "+Color.LG+"Home"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+				sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Pham The Suong"+Color.LB+" --> "+Color.LG+"Home"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 				option = input()
 				if option == '01' or option == '1':
 					os.system('clear')
@@ -85,10 +85,10 @@ class Home:
 				elif option == 'dev' or option == 'DEV':
 					print(self.dev)
 				elif option == 'exit' or option == 'EXIT':
-					subprocess.run(['pkill -f ViDucHung.py'], shell=True)
+					subprocess.run(['pkill -f PhamTheSuong.py'], shell=True)
 				elif option == 'stop' or option == 'STOP':
 					subprocess.run(['pkill screen'], shell=True)
-					print(f"{Color.LG} Vi Đức Hùng: Done!")
+					print(f"{Color.LG} Pham The Suong: Done!")
 				elif option == "":
 					pass
 				else:
@@ -372,7 +372,7 @@ class Tool:
 				subprocess.run(['pkill -f ViDucHung.py'], shell=True)
 			elif option == 'stop' or option == 'STOP':
 				subprocess.run(['pkill screen'], shell=True)
-				print(f"{Color.LG} Vi Đức Hùng: Done!")
+				print(f"{Color.LG} Pham The Suong: Done!")
 			elif option == "":
 				pass
 			else:
@@ -441,10 +441,10 @@ class Tool:
 			elif option == 'dev' or option == 'DEV':
 				print(self.dev)
 			elif option == 'exit' or option == 'EXIT':
-				subprocess.run(['pkill -f ViDucHung.py'], shell=True)
+				subprocess.run(['pkill -f PhamTheSuong.py'], shell=True)
 			elif option == 'stop' or option == 'STOP':
 				subprocess.run(['pkill screen'], shell=True)
-				print(f"{Color.LG} Vi Đức Hùng: Done!")
+				print(f"{Color.LG} Pham The Suong: Done!")
 			elif option == "":
 				pass
 			else:
@@ -462,7 +462,7 @@ class Tool:
 		print(Color.LR+"["+Color.LG+"00"+Color.LR+"]"+Color.LC+" Return")
 		print("\n")
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Vi Đức Hùng"+Color.LB+" --> "+Color.LG+"Layer4"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Pham The Suong"+Color.LB+" --> "+Color.LG+"Layer4"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				try:
@@ -471,7 +471,7 @@ class Tool:
 					floodtime = int(input(f"{Color.LG} [>] Time: "+Color.RESET))
 					thread = int(input(f"{Color.LG} [>] Thread: "+Color.RESET))
 					subprocess.run([f'screen -dm python3 utils/L4/vse {ip} {port} {floodtime} {thread}'], shell=True)
-					print(Color.LG+f"\n Vi Đức Hùng: Done!\n")
+					print(Color.LG+f"\n Pham The Suong: Done!\n")
 				except:
 					print(f"{Color.LR}ERROR: {Color.RESET}Try again")
 			elif option == '02' or option == '2':
@@ -503,7 +503,7 @@ class Tool:
 					size = int(input(f"{Color.LG} [>] Size: "+Color.RESET))
 					thread = int(input(f"{Color.LG} [>] Thread: "+Color.RESET))
 					subprocess.run([f'screen -dm python3 utils/L4/udp {ip} {port} {floodtime} {size} {thread}'], shell=True)
-					print(Color.LG+f"\n Vi Đức Hùng: Done!\n")
+					print(Color.LG+f"\n Pham The Suong: Done!\n")
 				except:
 					print(f"{Color.LR}ERROR: {Color.RESET}Try again")
 			elif option == '05' or option == '5':
@@ -528,7 +528,7 @@ class Tool:
 			elif option == 'dev' or option == 'DEV':
 				print(self.dev)
 			elif option == 'exit' or option == 'EXIT':
-				subprocess.run(['pkill -f Pham The Suong.py'], shell=True)
+				subprocess.run(['pkill -f PhamTheSuong.py'], shell=True)
 			elif option == 'stop' or option == 'STOP':
 				subprocess.run(['pkill screen'], shell=True)
 				print(f"{Color.LG} Pham The Suong: Done!")
@@ -674,7 +674,7 @@ def main():
 	except IsADirectoryError:pass
 	except FileNotFoundError:
 		print(f"{Color.LR}[CRITICAL ERROR]:{Color.RESET} File: 'utils' NotFound")
-		print("\n[+] Please download on GitHub, or git clone: https://github.com/Viduchung/DDoS.git\n")
+		print("\n[+] Please download on GitHub, or git clone: https://github.com/Ddos-V3\n")
 		os.remove(f'{__file__}')
 		script = False
 	if script == False:sys.exit()
